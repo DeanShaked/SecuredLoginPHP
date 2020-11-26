@@ -26,7 +26,7 @@
   height: 300px;
   font-family: "Arial Black", Gadget, sans-serif;
   text-transform: uppercase;
-  background: blueviolet;
+  background: #363333;
   color: #FFFFFF;
   padding:24px;
   font-size: 14px;
@@ -38,7 +38,7 @@
   font-family: "Arial Black", Gadget, sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: skyblue;
+  background: blueviolet;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -53,7 +53,7 @@
   font-family: "Arial Black", Gadget, sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: rgb(240, 17, 91);
+  transform: scale(1.05);
   width: 100%;
   border: 0;
   padding: 15px;
@@ -78,13 +78,19 @@
   font-family: "Roboto", sans-serif;
   border:none;
   outline:none;
-  background: #f2f2f2;
+  background: #3d3d3d;
   width: 100%;
   border-radius: 10px;
   margin: 0 0 15px;
   padding: 15px;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 20px;
+  color:blueviolet;
+}
+
+.form input::placeholder {
+  color:#fefefe;
+  opacity: 0.2;
 }
 .form button {
   font-family: "Arial Black", Gadget, sans-serif;

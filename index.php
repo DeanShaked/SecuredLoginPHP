@@ -1,5 +1,8 @@
 <?php
-include('CheckUP.php');
+include('check.php');
+if(!isset($_SESSION['login_user'])){
+	header("location: Menu.php");
+}
 ?>
 
 <!DOCTYPE html>
